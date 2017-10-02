@@ -16,8 +16,8 @@
 
   roles:
     - common
-    - development
     - aesthetics
     - social
+    - development
 
   become: True
