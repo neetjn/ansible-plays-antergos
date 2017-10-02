@@ -1,0 +1,24 @@
+- name: Install jshon for Pacaur
+  pacman:
+    name: jshon
+    state: present
+
+- name: Install Pacaur package manager
+  pacman:
+    name: pacaur
+    state: present
+
+- name: Install Synergy
+  pacman:
+    name: synergy
+    state: present
+
+- name: Install Redshift
+  pacaur:
+    name: redshift
+    state: present
+
+- name: Install Mono (.NET)
+  pacaur:
+    name: mono
+    state: present

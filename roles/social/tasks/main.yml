@@ -1,0 +1,19 @@
+- name: Install Hipchat
+  pacaur:
+    name: hipchat
+    state: present
+
+- name: Install Keybase
+  pacaur:
+    name: keybase
+    state: present
+
+- name: Install Teamviewer
+  pacaur:
+    name: teamviewer
+    state: present
+
+- name: Install Hamachi
+  pacaur:
+    name: logmein-hamachi
+    state: present

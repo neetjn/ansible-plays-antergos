@@ -1,0 +1,11 @@
+- name: Install Oranchelo icon theme
+  pacaur:
+    name: oranchelo-icon-theme
+    state: present
+
+- name: Setup wallpapers
+  copy:
+    src: "{{ item }}"
+    dest: /usr/share/backgrounds
+  with_fileglob:
+    - roles/aesthetics/files/*
