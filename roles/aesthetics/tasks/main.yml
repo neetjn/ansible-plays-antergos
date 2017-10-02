@@ -6,6 +6,7 @@
 - name: Setup wallpapers
   copy:
     src: "{{ item }}"
-    dest: /usr/share/backgrounds
+    dest: "{{home_directory}}/Pictures"
   with_fileglob:
     - roles/aesthetics/files/*
+  become: False
