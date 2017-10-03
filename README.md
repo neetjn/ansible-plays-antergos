@@ -35,6 +35,8 @@ The playbook has been broken up into four individual role groups:
 * Install nodejs 6.11.3.
 * Install coffeescript (global).
 * Install webpack 2.2.0 (global).
+* Install angular-cli.
+* Install vue-cli.
 * Install pip.
 * Installed httpie.
 * Install pylint.

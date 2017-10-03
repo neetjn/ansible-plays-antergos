@@ -36,6 +36,18 @@
     global: yes
     state: present
 
+- name: Install angular-cli
+  npm:
+    name: "@angular/cli"
+    global: yes
+    state: present
+
+- name: Install vue-cli
+  npm:
+    name: vue-cli
+    global: yes
+    state: present
+
 - name: Install pip
   pacman:
     name: python-pip
