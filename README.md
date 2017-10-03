@@ -10,7 +10,7 @@ The playbook has been broken up into four individual role groups:
 
 * Install jshon for the pacaur package manager.
 * Install pacaur package manager.
-* Install synerg.
+* Install synergy.
 * Install redshift.
 * Install mono (.NET).
 
