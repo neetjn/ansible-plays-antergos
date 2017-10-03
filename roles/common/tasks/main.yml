@@ -18,6 +18,11 @@
     name: redshift
     state: present
 
+- name: Install Deepin Screenshot
+  pacaur:
+    name: deepin-screenshot
+    state: present
+
 - name: Install Mono (.NET)
   pacaur:
     name: mono
