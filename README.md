@@ -6,7 +6,7 @@ These tasks use the pacman package manager `pacman`, as well as `pacaur` for the
 
 The playbook has been broken up into four individual role groups:
 
-### Common
+#### Common
 
 * Install jshon for the pacaur package manager.
 * Install pacaur package manager.
@@ -15,19 +15,19 @@ The playbook has been broken up into four individual role groups:
 * Install deepin-screenshot.
 * Install mono (.NET).
 
-### Aesthetics
+#### Aesthetics
 
 * Install Oranchelo icon theme.
 * Copy wallpaper to local pictures directory.
 
-### Social
+#### Social
 
 * Install Hipchat.
 * Install Keybase.
 * Install Teamviewer.
 * Install Hamachi VPN.
 
-### Development
+#### Development
 
 * Create ssh key for git using `git_ssh_key_user` variable.
 * Install npm.
