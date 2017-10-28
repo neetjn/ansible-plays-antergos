@@ -62,7 +62,7 @@ The playbook has been broken up into four individual role groups:
 ## Use
 
 ```sh
-git clone https://github.com/neetVeritas/ansible-plays-antergos.git
+git clone https://github.com/neetjn/ansible-plays-antergos.git
 
 cd ansible-plays-antergos
 
