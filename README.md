@@ -52,6 +52,12 @@ The playbook has been broken up into four individual role groups:
 * Install vscode (with extensions).
 * Install fiddler web debugger.
 
+## Variables
+
+Playbook inventory variables can be found in `group_vars/all.yml`.
+
+    git_ssh_key_user: Username of ssh key generated for git.
+
 ## Prerequisites
 
 * git
