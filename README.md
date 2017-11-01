@@ -60,10 +60,10 @@ Playbook inventory variables can be found in `group_vars/all.yml`.
 
 ## Prerequisites
 
-  git
-  ansible 2.0 - 2.3
+    git
+    ansible 2.0 - 2.3
   
-*due to a change in version 2.4 defined [here](https://github.com/ansible/ansible/issues/31041), any version of ansible above 2.3.x is not recommended*
+*Due to a change in version 2.4 explained [here](https://github.com/ansible/ansible/issues/31041), any version of ansible above 2.3.x is not recommended.*
 
 ## Use
 
