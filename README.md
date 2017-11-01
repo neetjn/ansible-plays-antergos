@@ -66,7 +66,7 @@ git clone https://github.com/neetjn/ansible-plays-antergos.git
 
 cd ansible-plays-antergos
 
-ansible-playbook playbook.yml -i localhost
+ansible-playbook playbook.yml
 ```
 
 ---
