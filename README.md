@@ -30,6 +30,8 @@ The playbook has been broken up into four individual role groups:
 * Install Keybase.
 * Install Teamviewer.
 * Install Hamachi VPN.
+* Install Gitter.
+* Install Slack.
 
 #### Development
 
