@@ -17,3 +17,13 @@
   pacaur:
     name: logmein-hamachi
     state: present
+
+- name: Install Gitter
+  pacaur:
+    name: gitter
+    state: present
+    
+- name: Install Slack
+  pacaur:
+    name: slack-desktop
+    state: present
