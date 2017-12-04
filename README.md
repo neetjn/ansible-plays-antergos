@@ -1,7 +1,3 @@
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/ymhxqZ47jLBFuVrU2iywqLGC/neetjn/ansible-plays-antergos'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/ymhxqZ47jLBFuVrU2iywqLGC/neetjn/ansible-plays-antergos.svg' />
-</a>
-
 # ansible-plays-antergos
 
 This playbook will install prepare my development workspace on Antergos, independent of my given desktop environment.
