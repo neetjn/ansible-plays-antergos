@@ -42,6 +42,8 @@ The playbook has been broken up into four individual role groups:
 * Install pip.
 * Installed httpie.
 * Install pylint.
+* Install twine (pypi package manager).
+* Install sphinx (docs generator).
 * Install virtualenv.
 * Install docker.
 * Install py-docker module.
