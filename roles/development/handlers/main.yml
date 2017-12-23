@@ -24,4 +24,5 @@
     code --install-extension dracula-theme.theme-dracula
     code --install-extension raashida.fixthecode-vs
     code --install-extension gerane.theme-artschool
+    code --install-extension lextudio.restructuredtext
   become: False
