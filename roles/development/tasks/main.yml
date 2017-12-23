@@ -63,6 +63,16 @@
     name: pylint
     state: present
 
+- name: Install twine
+  pip:
+    name: twine
+    state: present
+
+- name: Install Sphinx
+  pip:
+    name: sphinx
+    state: present
+
 - name: Install virtualenv
   pip:
     name: virtualenv
