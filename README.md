@@ -34,7 +34,7 @@ The playbook has been broken up into four individual role groups:
 * Create ssh key for git using `git_ssh_key_user` variable.
 * Install npm.
 * Install `n` nodejs manager.
-* Install nodejs 6.11.3.
+* Install nodejs 8 lts.
 * Install coffeescript (global).
 * Install webpack 2.2.0 (global).
 * Install angular-cli.
@@ -49,6 +49,7 @@ The playbook has been broken up into four individual role groups:
 * Install py-docker module.
 * Install docker-compose.
 * Install awscli.
+* Install mongodb-compass.
 * Install vscode (with extensions).
 * Install fiddler web debugger.
 
