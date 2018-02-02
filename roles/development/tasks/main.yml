@@ -99,6 +99,11 @@
     name: awscli
     state: present
 
+- name: Install mongodb compass
+  pacaur:
+    name: mongodb-compass
+    state: present
+
 - name: Install Visual Studio Code
   pacaur:
     name: visual-studio-code
