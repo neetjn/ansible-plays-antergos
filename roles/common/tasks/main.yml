@@ -22,8 +22,3 @@
   pacaur:
     name: deepin-screenshot
     state: present
-
-- name: Install Mono (.NET)
-  pacaur:
-    name: mono
-    state: present
