@@ -10,3 +10,8 @@
   with_fileglob:
     - roles/aesthetics/files/*
   become: False
+
+- name: Setup fonts
+  pacaur:
+    name: ttf-fira-code
+    state: present
