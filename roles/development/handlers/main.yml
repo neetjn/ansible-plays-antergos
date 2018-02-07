@@ -25,5 +25,6 @@
     code --install-extension raashida.fixthecode-vs && \
     code --install-extension gerane.theme-artschool && \
     code --install-extension lextudio.restructuredtext && \
-    code --install-extension loiane.ts-extension-pack
+    code --install-extension loiane.ts-extension-pack && \
+    code --install-extension wesbos.theme-cobalt2
   become: False
