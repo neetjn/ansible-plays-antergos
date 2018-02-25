@@ -31,3 +31,4 @@
     code --install-extension eamodio.gitlens && \
     code --install-extension formulahendry.auto-close-tag
   become: False
+  ignore_errors: True
