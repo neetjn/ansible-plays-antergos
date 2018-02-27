@@ -49,6 +49,7 @@ The playbook has been broken up into four individual role groups:
 * Install docker-compose.
 * Install awscli.
 * Install mongodb-compass.
+* Install sqlectron.
 * Install vscode (with extensions).
 * Install fiddler web debugger.
 
