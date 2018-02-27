@@ -103,6 +103,11 @@
     name: mongodb-compass
     state: present
 
+- name: Install sqlectron
+  pacaur:
+    name: sqlectron-gui
+    state: present
+
 - name: Install Visual Studio Code
   pacaur:
     name: visual-studio-code
